@@ -1,0 +1,126 @@
+nav{
+    padding: 25px;
+    border-radius:20px;
+    background-color:#6674CC;
+    font-size: large;
+}
+nav a{
+    color: white;
+    padding: 20px;
+    font-size: medium;
+    margin:80px;
+    font-family: serif;
+    text-decoration: none;
+    border-radius: 10px;
+}
+footer{
+    padding: 25px;
+    border-radius:20px;
+    background-color: rgb(93, 194, 93);
+    margin-top: 50px;
+}
+footer a{
+    color: white;
+    font-size: medium;
+    padding: 20px;
+    margin: 60px;
+    font-family: serif;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.me{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+section{
+    text-align: center;
+    height: 100%;
+    padding-bottom: 20px;
+}
+section:nth-child(fourth){
+    background-color:rgba(226, 99, 141, 0.728);
+    text-align: center;
+}
+iframe{
+    padding-left: 20px;
+    padding: 20px;
+}
+h3,h4{
+    margin: 0px 80px;
+    padding: 20px;
+}
+.image{
+    background-image: url(https://lwfiles.mycourse.app/62a6cd5e1e9e2fbf212d608d-public/6efdd5e7f0d663cf231d0f2040be0a1e.png);
+    height:450px;
+    min-height: 100px;
+    background-position-x: 250px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.Shradha{
+    height:20%;
+    width:20%;
+    border-radius: 50%;
+}
+h3{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing:4px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    margin: 20px 0px 15px;
+}
+@media screen and (max-width:700px){
+    nav{
+        flex-direction:column;
+    } 
+}
+nav a:hover{
+    background-color: white;
+    color: #6674CC;
+    border-radius: 90px 
+}
+h2{
+    padding: 40px;
+}
+section h2 span{
+    background-color:rgb(241, 194, 73);
+    padding: 20px 55px;
+    border-radius: 80px;
+}
+footer a:hover{
+    background-color: black;
+    color: rgb(183, 35, 59);
+    border-radius: 90px;
+}
+body { 
+    font-family: sans-serif;
+}
+.carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+}
+.handle a{
+    background-color: rgb(125,125,125,25%);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    text-decoration:none;
+    margin-bottom: 40px;
+    font-size: 1.25em;
+}
+.handle .yt{
+    background-color:red;
+    color: white;
+}
+.handle .Link{
+     background-color:#0072b1;
+     color: white;
+}
+.insta{
+    color: white;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+   
